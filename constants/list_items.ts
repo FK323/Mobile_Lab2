@@ -1,12 +1,10 @@
-// Define the structure of a vacation destination
 export interface VacationDestination {
   id: number;
   location: string;
-  price: number; // Changed to a numeric value for actual prices
+  price: number;
   average_yearly_temperature: string;
 }
 
-// Define the array with explicit typing and actual prices in USD
 const vacationDestinations: VacationDestination[] = [
   { id: 1, location: "Paris", price: 2500, average_yearly_temperature: "15°C" },
   { id: 2, location: "Tokyo", price: 1800, average_yearly_temperature: "16°C" },
